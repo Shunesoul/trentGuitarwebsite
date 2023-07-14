@@ -69,3 +69,21 @@
     width: auto;
     gap: 4px;
 }
+@media (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftSide {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .leftSide img {
+        height: 40%;
+        width: auto;
+    }
+    .rightSide {
+        display: none;
+    }
+}
