@@ -69,10 +69,17 @@
     width: auto;
     gap: 4px;
 }
+.phoneSociallinks {
+    display: none;
+}
+.phoneLinks {
+    display: none;
+}
 @media (max-width: 600px) {
     .header {
         display: flex;
         flex-direction: column;
+        border-bottom: solid 2px brown;
     }
     .leftSide {
         display: flex;
@@ -85,5 +92,12 @@
     }
     .rightSide {
         display: none;
+    }
+    .phoneSociallinks {
+        display: contents;
+    }
+    .phoneLinks {
+        display: contents;
+        text-align: center;
     }
 }
