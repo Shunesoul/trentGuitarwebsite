@@ -83,6 +83,7 @@
     justify-content: center;
     align-items: center;
     gap: 8rem;
+    padding-bottom: 1rem;
 }
 .contentBox{
     display: flex;
@@ -230,5 +231,11 @@
     }
     .educationStation{ 
         display: none;
+    }
+    .contentRight {
+        display: none;
+    }
+    .contentBox {
+        text-align: center;
     }
 }
